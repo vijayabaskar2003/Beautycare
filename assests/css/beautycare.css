@@ -1,0 +1,65 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+img{
+    height:83px;
+}
+.companyname{
+    color:floralwhite;
+    margin-right: 17px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px; /*space between letters*/
+}
+.image1{
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /*fill the unwanted space*/
+    background-color: orangered;
+}
+.menubar{
+    /* background-color:#1D1CE5; */
+    background-color: orangered;
+    float:right; /*allign the content right side */
+    margin-left:300px ;
+}
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menubar ul li{
+    width:120px;
+    margin:15px;
+    padding:15px
+}
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+.active, .menubar ul li:hover{
+    /* background-color:#4649FF;   */
+    background-color: orangered;
+    cursor: pointer; 
+}
+.submenu{
+    display: none;
+}
+.menubar ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    /* background:#7978FF; */
+    background-color: orangered;
+    margin-top: 15px;
+    padding-left: 1px;
+}
+.menubar ul li:hover .submenu ul{   /* THE DROPDOWN CONTENT*/
+    display: block;
+    margin: 1px;
+}
+.menubar ul li:hover .submenu ul li{
+    width:150px;
+    padding:10px;
+    cursor:pointer;
+}

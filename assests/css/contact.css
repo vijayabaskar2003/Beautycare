@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+img{
+    height:83px;
+}
+
+.companyname{
+    color:floralwhite;
+    letter-spacing: 2px; /*space between letters*/
+}
+
+.image1{
+    display: flex;
+    align-items: center;
+    white-space: nowrap; /*fill the unwanted space*/
+    background-color: orangered;
+}
+
+.icon{
+    width: 80px;
+    padding-right: 3px;
+    float: right;
+    margin-left: 947px;
+}
+
+span {
+  
+    font-size: 16px;
+    font-family: Cooper Black;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: Cooper Black;
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 2px;
+    color: lightgray;
+} 
+
+
+.para1 {
+    text-align: center;
+    color: lightgray;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+    color: lightgray;
+
+}
+
+.time {
+    text-align: center;
+    padding: 30px;
+    line-height: 30px;
+    color: lightgray;
+}
+
+.conus {
+    padding: 20px;
+    font-family: fantasy;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 5px;
+    color: lightgray;
+}
+
+.p2 {
+    text-align: center;
+    font-weight: 700;
+    line-height: 40px;
+    color: lightgray;
+}

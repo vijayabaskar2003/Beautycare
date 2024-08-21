@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+}
+.h1{
+    letter-spacing: 3px;
+    padding:26px;
+    text-align: center;
+    color:purple;
+    background-color: lavender;
+    font-family: cursive;
+
+}
+.icon{
+    margin:0;
+    padding:0;
+    width:60px;
+    margin-right: 1350px;
+    display: flex;
+}
+.makeup{
+    text-align: left;
+    margin-left: 550px;
+    line-height: 50px;
+    font-weight:400;
+    color:red;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.img-container{
+    display:flex;
+    background-color: lavender;
+}
+.img-container img{
+    margin-right: 80px;
+    padding: 20px;
+}
+.price{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 5px;
+    padding: 10px;
+    padding-right: 5px;
+    background-color:lightcoral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img2container{
+    display:flex;
+    background-color: lavender;
+}
+.img2container img{
+    margin-right: 250px;
+    padding: 20px;
+}
+.price1{
+    display: flex;
+    justify-content:space-between;
+    background-color:lightcoral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px;  
+}
+
+.he{
+    margin-right: 435px;
+}
+
+.he1{
+    margin-right:112px;
+}

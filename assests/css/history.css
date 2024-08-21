@@ -1,0 +1,60 @@
+*{
+    padding:0;
+    margin:0; 
+    box-sizing: border-box;
+}
+.welcome{
+    flex:1; /*takes up available space*/
+    background-color: lavender;
+}
+
+h1{
+    font-size:51px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 276px;
+    color:darkslateblue;
+}
+.para{
+    font-size: 20px;
+    margin-top: 1px;
+    margin-left: 500px;
+    color: #4D2DB7;
+}
+.companyhistory{
+    border-radius: 1px;
+    padding: 20px;
+    max-width: 1500px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+}
+h2{
+    padding:10px;
+    color:aliceblue
+}
+p{
+    padding: 20px;
+    line-height: 40px;
+    color: lightgray;
+}
+.near{
+    display: flex;
+    background-color: black;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text{
+    flex: 1;
+    padding-right: 25px;   
+}
+.fourimage{
+    margin-left: 20px;  
+}
+.aboutus1{
+    color:gray;
+}
+.icon{
+    margin:0;
+    padding:0;
+    width:60px;
+}
